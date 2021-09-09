@@ -116,7 +116,7 @@ header .menu-head .button button:hover {
 }
 
 .section-2 .img-story {
-  background: url("/assets/story.jpg");
+  background: url("./assets/story.jpg");
   width: 100%;
   height: 55vmin;
   background-size: 110%;
@@ -169,14 +169,14 @@ header .menu-head .button button:hover {
 }
 
 .section-3 .img-se3 {
-  background: url("/assets/Photo_Aug_31_6_01_09_PM_2160x.jpg") no-repeat;
+  background: url("./assets/Photo_Aug_31_6_01_09_PM_2160x.jpg") no-repeat;
   width: 100%;
   height: 55vmin;
   background-size: 110%;
 }
 
 .section-4 .img-look {
-  background: url("/assets/IMG_9288_540x.PNG") no-repeat;
+  background: url("./assets/IMG_9288_540x.PNG") no-repeat;
   width: 100%;
   height: 100vmin;
   background-size: 110%;
@@ -206,7 +206,7 @@ header .menu-head .button button:hover {
 }
 
 .section-5 .cover-customs {
-  background: url("/assets/ezgif.com-gif-maker_8.gif") no-repeat;
+  background: url("./assets/ezgif.com-gif-maker_8.gif") no-repeat;
   background-size: 100%;
   height: 75vmin;
   background-position-y: -10rem;
@@ -274,7 +274,7 @@ header .menu-head .button button:hover {
 .section-8 .cover {
   width: 100%;
   height: 80vmin;
-  background: url("/assets/johny-dang-gold-thrown-feature_625c0dc2-7eab-4688-9241-29b4e0aa284d_4100x.jpg") fixed;
+  background: url("./assets/johny-dang-gold-thrown-feature_625c0dc2-7eab-4688-9241-29b4e0aa284d_4100x.jpg") fixed;
   background-position-y: -20rem;
   background-size: 100%;
   position: relative;
@@ -310,18 +310,18 @@ header .menu-head .button button:hover {
 }
 
 .section-9 .content-featured #img-featured {
-  background: url("/assets/0b89eca3394c77d2945bd5119dc4e86e.jpg") no-repeat;
+  background: url("./assets/0b89eca3394c77d2945bd5119dc4e86e.jpg") no-repeat;
   background-position-y: -10rem;
   background-size: 100%;
 }
 
 .section-9 .content-featured #img-featured-1 {
-  background: url("/assets/827760a1a4cafb80da1c28ce795d5d06_900x.jpg") no-repeat;
+  background: url("./assets/827760a1a4cafb80da1c28ce795d5d06_900x.jpg") no-repeat;
   background-size: 100%;
 }
 
 .section-9 .content-featured #img-featured-2 {
-  background: url("/assets/d5a64925687e10e8260a3c7eb1ea6a54.jpg") no-repeat;
+  background: url("./assets/d5a64925687e10e8260a3c7eb1ea6a54.jpg") no-repeat;
   background-size: 100%;
 }
 
@@ -350,7 +350,7 @@ header .menu-head .button button:hover {
 }
 
 .section-10 .cover-email {
-  background: url("/assets/IMG_3907_3000x.JPG") no-repeat;
+  background: url("./assets/IMG_3907_3000x.JPG") no-repeat;
   background-size: cover;
   position: relative;
   height: 35vmin;

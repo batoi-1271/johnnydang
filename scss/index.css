@@ -1,7 +1,7 @@
-@import url("..https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;600&display=swap");
-@import url("..https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap");
-@import url("..https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
-@import url("..https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@200&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -451,4 +451,4 @@ footer .copyright {
     padding-top: 15vmin;
   }
 }
-/*# sourceMappingURL=i..ndex.css.map */
+/*# sourceMappingURL=index.css.map */

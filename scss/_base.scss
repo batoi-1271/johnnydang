@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: normal;
+}
+
+body {
+    font: {
+        size: 1rem;
+        family: sans-serif;
+    }
+}
+main {
+    overflow: hidden;
+}
+a {
+    text-decoration: none !important;
+    list-style-type: none !important;
+    color: white !important;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}

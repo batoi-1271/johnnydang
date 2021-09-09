@@ -1,0 +1,297 @@
+.section-1 {
+  h3 {
+    font: {
+      family: "Times New Roman", Times, serif;
+      weight: 800;
+    }
+  }
+
+  .collection-1 {
+    span {
+      font: {
+        family: "Times New Roman", Times, serif;
+        size: 1.5em;
+        weight: 500;
+      }
+    }
+  }
+}
+
+.section-2 {
+  .img-story {
+    background: url("/assets/story.jpg");
+    width: 100%;
+    height: 55vmin;
+    background-size: 110%;
+    position: relative;
+  }
+
+  .button {
+    width: 10rem;
+    height: 100%;
+    padding-top: 24vmin;
+    @include button;
+  }
+
+  .text-story {
+    @include center-text;
+  }
+}
+
+.section-3 {
+  .text-se3 {
+    @include center-text;
+  }
+
+  .img-se3 {
+    background: url("/assets/Photo_Aug_31_6_01_09_PM_2160x.jpg") no-repeat;
+    width: 100%;
+    height: 55vmin;
+    background-size: 110%;
+  }
+}
+
+.section-4 {
+  .img-look {
+    background: url("/assets/IMG_9288_540x.PNG") no-repeat;
+    width: 100%;
+    height: 100vmin;
+    background-size: 110%;
+  }
+
+  .text-look {
+    font: {
+      family: 'Times New Roman', Times, serif;
+      size: 1rem;
+      weight: 500;
+    }
+
+    h5 {
+      font: {
+        family: 'Times New Roman', Times, serif;
+        size: 1rem;
+        weight: bold;
+        style: italic;
+      }
+
+      ;
+    }
+
+    @include center-text;
+  }
+}
+
+.section-5 {
+  .cover-customs {
+    background: url("/assets/ezgif.com-gif-maker_8.gif") no-repeat;
+    background-size: 100%;
+    height: 75vmin;
+    background-position-y: -10rem;
+    position: relative;
+
+  }
+
+  .customs-text {
+    width: 10rem;
+    height: 100%;
+    padding-top: 30vmin;
+
+    h4 {
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: 500;
+      font-size: 3rem;
+    }
+
+    button {
+      width: 9rem;
+      height: 3rem;
+      color: white;
+      border: 1px solid white;
+      font-family: "Rajdhani", sans-serif;
+      font-weight: bold;
+
+      &:hover {
+        background-color: white;
+        color: black;
+      }
+    }
+  }
+}
+
+.section-6 {
+  h5 {
+    font: {
+      family: 'Roboto', sans-serif;
+    }
+
+    ;
+  }
+}
+
+.section-7 {
+  .text-showroom {
+    font-family: 'Roboto', sans-serif;
+    @include center-text;
+    @include button-1;
+  }
+}
+
+.section-8 {
+  .cover {
+    width: 100%;
+    height: 80vmin;
+    background: url("/assets/johny-dang-gold-thrown-feature_625c0dc2-7eab-4688-9241-29b4e0aa284d_4100x.jpg") fixed;
+    background-position-y: -20rem;
+    background-size: 100%;
+    position: relative;
+  }
+
+  .content {
+    width: 100%;
+    height: 100%;
+    padding-top: 35vmin;
+
+    h1 {
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    h2 {
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.2rem;
+    }
+
+    @include button-2;
+  }
+}
+
+.section-9 {
+  .content-featured {
+    #img-featured {
+      background: url("/assets/0b89eca3394c77d2945bd5119dc4e86e.jpg") no-repeat;
+      background-position-y: -10rem;
+      background-size: 100%;
+
+    }
+
+    #img-featured-1 {
+      background: url("/assets/827760a1a4cafb80da1c28ce795d5d06_900x.jpg") no-repeat;
+      background-size: 100%;
+    }
+
+    #img-featured-2 {
+      background: url("/assets/d5a64925687e10e8260a3c7eb1ea6a54.jpg") no-repeat;
+      background-size: 100%;
+    }
+
+    .img {
+      width: 100%;
+      height: 30vmin;
+    }
+
+    .text-featured {
+      width: 95%;
+      margin: auto;
+
+      h4 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.5rem;
+      }
+
+      p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.9rem;
+      }
+
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.section-10 {
+  .cover-email {
+    background: url("/assets/IMG_3907_3000x.JPG") no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 35vmin;
+
+    .content-email {
+      width: 100%;
+      height: 100%;
+      padding-top: 11vmin;
+      font-family: 'Azeret Mono', monospace;
+      h3 {
+        font-size: 0.9rem;
+        font-weight: bold;
+        
+      }
+      .input-group {
+        height: 35px;
+        input {
+          width: 250px !important;
+          background: none; 
+          color: white;
+          border: 2px solid black;
+          outline: none;
+          font-size: 0.9rem;
+          &:focus {
+            border: 3px solid black !important;
+          }
+        }
+        ::placeholder {
+          font-size: 0.7rem;
+        }
+        .btn {
+          background-color: black;
+          color: white;
+          font: {
+            size: 0.8rem;
+            weight: bold;
+          };
+          border: 2px solid black;
+          transition: 0.5s;
+          &:focus {
+            outline: none !important;
+          }
+          &:hover {
+            background-color: rgb(45, 46, 46);
+          }
+        }
+      }
+    }
+  }
+}
+
+footer {
+  background-color: black;
+  .infomation {
+    padding-top: 5vmin;
+    padding-bottom: 8vmin;
+    h6 {
+      font: {
+        family: 'Times New Roman', Times, serif;
+        weight: 800;
+      };
+    }
+    p {
+      font: {
+        family: 'Azeret Mono', monospace;
+        size: 0.8rem;
+        weight: 500;
+      };
+    }
+  }
+  .copyright {
+    padding-top: 1vmin;
+    padding-bottom: 4vmax;
+    font: {
+      family: 'Azeret Mono', monospace;
+      // size: 0.7rem;
+      weight: 500;
+    };
+    .row {
+      // cursor: pointer;
+    }
+  }
+}

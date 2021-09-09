@@ -1,0 +1,62 @@
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 50rem;
+  width: 100%;
+  overflow: hidden;
+  video {
+    position: absolute;
+    width: auto;
+    height: auto;
+    z-index: 0;
+  }
+
+  .promo {
+    .promo--link {
+      color: white !important;
+      position: relative;
+      z-index: 2;
+      height: 20px;
+      font: {
+        family: "Titillium Web", sans-serif;
+        size: 0.7em;
+        weight: bold;
+      }
+      letter-spacing: 2px;
+    }
+  }
+  .menu-head {
+    position: relative;
+    z-index: 2;
+    #heading {
+      font: {
+        family: "Rajdhani", sans-serif;
+        size: 4em;
+        weight: bold;
+      }
+      user-select: none;
+    }
+    p {
+      font: {
+        family: "Rajdhani", sans-serif;
+        weight: 500;
+      }
+      user-select: none;
+    }
+    .button {
+      @include button-2;
+    }
+  }
+
+  
+}
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url("https://source.unsplash.com/XT5OInaElMw/1600x900") black
+      no-repeat center scroll;
+    video {
+      display: none;
+    }
+  }
+}

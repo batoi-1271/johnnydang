@@ -1,0 +1,49 @@
+@mixin center-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@mixin button {
+    button {
+        width: 100%;
+        height: 6vmin;
+        color: white;
+        border: 1px solid white;
+        font-weight: 500;
+        &:hover {
+          background-color: black;
+          border: 1px solid rgb(0, 0, 0);
+        }
+    }
+}
+
+@mixin button-1 {
+    button {
+        width: 100%;
+        height: 6vmin;
+        color: black;
+        border: 1px solid black;
+        font-weight: bold;
+        &:hover {
+          background-color: black;
+          color: white;
+          border: 1px solid rgb(0, 0, 0);
+        }
+    }
+}
+
+@mixin button-2 {
+    button {
+        width: 9rem;
+        height: 3rem;
+        color: white;
+        border: 1px solid white;
+        font-family:"Rajdhani", sans-serif;
+        font-weight: bold;
+        &:hover {
+          background-color: white;
+          color: black;
+        }
+      }
+}

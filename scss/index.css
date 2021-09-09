@@ -1,0 +1,454 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@200&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: normal;
+          box-sizing: normal;
+}
+
+body {
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+
+main {
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none !important;
+  list-style-type: none !important;
+  color: white !important;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 50rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  width: auto;
+  height: auto;
+  z-index: 0;
+}
+
+header .promo .promo--link {
+  color: white !important;
+  position: relative;
+  z-index: 2;
+  height: 20px;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 0.7em;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+header .menu-head {
+  position: relative;
+  z-index: 2;
+}
+
+header .menu-head #heading {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 4em;
+  font-weight: bold;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+header .menu-head p {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+header .menu-head .button button {
+  width: 9rem;
+  height: 3rem;
+  color: white;
+  border: 1px solid white;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+}
+
+header .menu-head .button button:hover {
+  background-color: white;
+  color: black;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url("https://source.unsplash.com/XT5OInaElMw/1600x900") black no-repeat center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+
+.section-1 h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+}
+
+.section-1 .collection-1 span {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.section-2 .img-story {
+  background: url("/assets/story.jpg");
+  width: 100%;
+  height: 55vmin;
+  background-size: 110%;
+  position: relative;
+}
+
+.section-2 .button {
+  width: 10rem;
+  height: 100%;
+  padding-top: 24vmin;
+}
+
+.section-2 .button button {
+  width: 100%;
+  height: 6vmin;
+  color: white;
+  border: 1px solid white;
+  font-weight: 500;
+}
+
+.section-2 .button button:hover {
+  background-color: black;
+  border: 1px solid black;
+}
+
+.section-2 .text-story {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-3 .text-se3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-3 .img-se3 {
+  background: url("/assets/Photo_Aug_31_6_01_09_PM_2160x.jpg") no-repeat;
+  width: 100%;
+  height: 55vmin;
+  background-size: 110%;
+}
+
+.section-4 .img-look {
+  background: url("/assets/IMG_9288_540x.PNG") no-repeat;
+  width: 100%;
+  height: 100vmin;
+  background-size: 110%;
+}
+
+.section-4 .text-look {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1rem;
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-4 .text-look h5 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.section-5 .cover-customs {
+  background: url("/assets/ezgif.com-gif-maker_8.gif") no-repeat;
+  background-size: 100%;
+  height: 75vmin;
+  background-position-y: -10rem;
+  position: relative;
+}
+
+.section-5 .customs-text {
+  width: 10rem;
+  height: 100%;
+  padding-top: 30vmin;
+}
+
+.section-5 .customs-text h4 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+.section-5 .customs-text button {
+  width: 9rem;
+  height: 3rem;
+  color: white;
+  border: 1px solid white;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+}
+
+.section-5 .customs-text button:hover {
+  background-color: white;
+  color: black;
+}
+
+.section-6 h5 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.section-7 .text-showroom {
+  font-family: 'Roboto', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-7 .text-showroom button {
+  width: 100%;
+  height: 6vmin;
+  color: black;
+  border: 1px solid black;
+  font-weight: bold;
+}
+
+.section-7 .text-showroom button:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+
+.section-8 .cover {
+  width: 100%;
+  height: 80vmin;
+  background: url("/assets/johny-dang-gold-thrown-feature_625c0dc2-7eab-4688-9241-29b4e0aa284d_4100x.jpg") fixed;
+  background-position-y: -20rem;
+  background-size: 100%;
+  position: relative;
+}
+
+.section-8 .content {
+  width: 100%;
+  height: 100%;
+  padding-top: 35vmin;
+}
+
+.section-8 .content h1 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.section-8 .content h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+}
+
+.section-8 .content button {
+  width: 9rem;
+  height: 3rem;
+  color: white;
+  border: 1px solid white;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+}
+
+.section-8 .content button:hover {
+  background-color: white;
+  color: black;
+}
+
+.section-9 .content-featured #img-featured {
+  background: url("/assets/0b89eca3394c77d2945bd5119dc4e86e.jpg") no-repeat;
+  background-position-y: -10rem;
+  background-size: 100%;
+}
+
+.section-9 .content-featured #img-featured-1 {
+  background: url("/assets/827760a1a4cafb80da1c28ce795d5d06_900x.jpg") no-repeat;
+  background-size: 100%;
+}
+
+.section-9 .content-featured #img-featured-2 {
+  background: url("/assets/d5a64925687e10e8260a3c7eb1ea6a54.jpg") no-repeat;
+  background-size: 100%;
+}
+
+.section-9 .content-featured .img {
+  width: 100%;
+  height: 30vmin;
+}
+
+.section-9 .content-featured .text-featured {
+  width: 95%;
+  margin: auto;
+}
+
+.section-9 .content-featured .text-featured h4 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+}
+
+.section-9 .content-featured .text-featured p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9rem;
+}
+
+.section-9 .content-featured .text-featured span {
+  font-weight: bold;
+}
+
+.section-10 .cover-email {
+  background: url("/assets/IMG_3907_3000x.JPG") no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 35vmin;
+}
+
+.section-10 .cover-email .content-email {
+  width: 100%;
+  height: 100%;
+  padding-top: 11vmin;
+  font-family: 'Azeret Mono', monospace;
+}
+
+.section-10 .cover-email .content-email h3 {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.section-10 .cover-email .content-email .input-group {
+  height: 35px;
+}
+
+.section-10 .cover-email .content-email .input-group input {
+  width: 250px !important;
+  background: none;
+  color: white;
+  border: 2px solid black;
+  outline: none;
+  font-size: 0.9rem;
+}
+
+.section-10 .cover-email .content-email .input-group input:focus {
+  border: 3px solid black !important;
+}
+
+.section-10 .cover-email .content-email .input-group ::-webkit-input-placeholder {
+  font-size: 0.7rem;
+}
+
+.section-10 .cover-email .content-email .input-group :-ms-input-placeholder {
+  font-size: 0.7rem;
+}
+
+.section-10 .cover-email .content-email .input-group ::-ms-input-placeholder {
+  font-size: 0.7rem;
+}
+
+.section-10 .cover-email .content-email .input-group ::placeholder {
+  font-size: 0.7rem;
+}
+
+.section-10 .cover-email .content-email .input-group .btn {
+  background-color: black;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.section-10 .cover-email .content-email .input-group .btn:focus {
+  outline: none !important;
+}
+
+.section-10 .cover-email .content-email .input-group .btn:hover {
+  background-color: #2d2e2e;
+}
+
+footer {
+  background-color: black;
+}
+
+footer .infomation {
+  padding-top: 5vmin;
+  padding-bottom: 8vmin;
+}
+
+footer .infomation h6 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 800;
+}
+
+footer .infomation p {
+  font-family: 'Azeret Mono', monospace;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+footer .copyright {
+  padding-top: 1vmin;
+  padding-bottom: 4vmax;
+  font-family: 'Azeret Mono', monospace;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 768px) {
+  .section-8 .content {
+    padding-top: 15vmin;
+  }
+}
+/*# sourceMappingURL=index.css.map */

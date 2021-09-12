@@ -76,7 +76,6 @@
 
       ;
     }
-
     @include center-text;
   }
 }
@@ -129,10 +128,17 @@
 }
 
 .section-7 {
+  
   .text-showroom {
     font-family: 'Roboto', sans-serif;
     @include center-text;
     @include button-1;
+    height: 42rem;
+
+  }
+  .cover {
+    height: 42rem;
+    background: url("../assets/6224-richmond-ave-houston-tx-High-Res-9_1.jpg") no-repeat;
   }
 }
 

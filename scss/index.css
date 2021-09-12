@@ -46,6 +46,10 @@ header video {
   z-index: 0;
 }
 
+header .fullscreen-bg-video {
+  position: absolute;
+}
+
 header .promo .promo--link {
   color: white !important;
   position: relative;
@@ -93,15 +97,6 @@ header .menu-head .button button {
 header .menu-head .button button:hover {
   background-color: white;
   color: black;
-}
-
-@media (pointer: coarse) and (hover: none) {
-  header {
-    background: url("https://source.unsplash.com/XT5OInaElMw/1600x900") black no-repeat center scroll;
-  }
-  header video {
-    display: none;
-  }
 }
 
 .section-1 h3 {
@@ -255,6 +250,7 @@ header .menu-head .button button:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  height: 42rem;
 }
 
 .section-7 .text-showroom button {
@@ -269,6 +265,11 @@ header .menu-head .button button:hover {
   background-color: black;
   color: white;
   border: 1px solid black;
+}
+
+.section-7 .cover {
+  height: 42rem;
+  background: url("../assets/6224-richmond-ave-houston-tx-High-Res-9_1.jpg") no-repeat;
 }
 
 .section-8 .cover {
@@ -446,9 +447,95 @@ footer .copyright {
   font-weight: 500;
 }
 
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url("https://source.unsplash.com/XT5OInaElMw/1600x900") black no-repeat center scroll;
+  }
+  header video {
+    display: none;
+  }
+  header .promo {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 768px) {
-  .section-8 .content {
-    padding-top: 15vmin;
+  .menu-2 #search {
+    margin-right: -15px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .section-2 .button {
+    padding-top: 22vmin;
+  }
+  .section-2 .button button {
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .section-4 .img-look {
+    background: url("../assets/IMG_9288_540x.PNG") no-repeat center;
+    margin: 0 auto;
+    width: 50%;
+    height: 70vmin;
+    background-size: 110%;
+  }
+  .section-4 .text-look .card img {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .section-5 .cover-customs {
+    background: url("../assets/ezgif.com-gif-maker_8.gif") no-repeat;
+    background-size: 240%;
+    height: 550px;
+    background-position-x: -15rem;
+    position: relative;
+  }
+  .section-5 .customs-text {
+    width: 10rem;
+    height: 100%;
+    padding-top: 50vmin;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .section-7 .text-showroom {
+    height: 30rem;
+  }
+  .section-7 .text-showroom button {
+    height: 45px;
+  }
+  .section-7 .cover {
+    height: 30rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .section-8 .cover {
+    height: 28rem;
+    background-size: 200%;
+    background-position-x: -13rem;
+  }
+  .section-8 .cover .content {
+    padding-top: 30vmin;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .section-10 .cover-email {
+    height: 15rem;
+  }
+  .section-10 .cover-email .content-email {
+    padding-top: 0vmin;
+  }
+  .section-10 .cover-email .content-email .input-group {
+    margin-top: 30px;
+    height: 38px;
   }
 }
 /*# sourceMappingURL=index.css.map */

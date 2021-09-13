@@ -1,7 +1,12 @@
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url("https://source.unsplash.com/XT5OInaElMw/1600x900") black
+    // background: url("https://source.unsplash.com/XT5OInaElMw/1600x900") black
+    //   no-repeat center scroll;
+    // background: url("https://b4e43405421613516abe-db9a2604f743d1e570e8010ebf7b7aa5.ssl.cf1.rackcdn.com/TODDSPOTH-HOUSTONPORTRAITPHOTOGRAPHER-31.JPG") black
+    //   no-repeat center scroll;
+    background: url("https://static2.yan.vn/YanNews/2167221/202012/johnny-dang-tu-tho-sua-dong-ho-cho-troi-thanh-vua-kim-hoan-hollywood-75c39773.jpg") black
       no-repeat center scroll;
+      background-size: cover;
     video {
       display: none;
     }
@@ -10,12 +15,22 @@
     }
   }
 }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+  header {
+    .promo {
+      display: block;
+      background-color: black;
+    }
+  }
+}
+
 .menu-2 {
   @media only screen and (max-width: 768px) {
-    .logo {
-    }
     #search {
       margin-right: -15px;
+
     }
   }
 }

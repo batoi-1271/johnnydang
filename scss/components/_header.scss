@@ -51,7 +51,19 @@ header {
     .button {
       @include button-2;
     }
+    .menu-2 {
+    .search {
+      height: 5rem;
+      input {
+        // background-color: aqua;
+        width: 90%;
+        height: 100%;
+        border: none;
+        outline: none;
+      }
+    }
+    }
   }
-  
+ 
 }
 

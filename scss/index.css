@@ -99,6 +99,17 @@ header .menu-head .button button:hover {
   color: black;
 }
 
+header .menu-head .menu-2 .search {
+  height: 5rem;
+}
+
+header .menu-head .menu-2 .search input {
+  width: 90%;
+  height: 100%;
+  border: none;
+  outline: none;
+}
+
 .section-1 h3 {
   font-family: "Times New Roman", Times, serif;
   font-weight: 800;
@@ -449,13 +460,21 @@ footer .copyright {
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url("https://source.unsplash.com/XT5OInaElMw/1600x900") black no-repeat center scroll;
+    background: url("https://static2.yan.vn/YanNews/2167221/202012/johnny-dang-tu-tho-sua-dong-ho-cho-troi-thanh-vua-kim-hoan-hollywood-75c39773.jpg") black no-repeat center scroll;
+    background-size: cover;
   }
   header video {
     display: none;
   }
   header .promo {
     display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  header .promo {
+    display: block;
+    background-color: black;
   }
 }
 

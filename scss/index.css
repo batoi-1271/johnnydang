@@ -63,7 +63,7 @@ header .promo .promo--link {
 
 header .menu-head {
   position: relative;
-  z-index: 2;
+  z-index: 999;
 }
 
 header .menu-head #heading {

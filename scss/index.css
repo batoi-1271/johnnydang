@@ -416,6 +416,7 @@ header .menu-head .menu-2 .search input {
 .section-10 .cover-email .content-email .input-group .btn {
   background-color: black;
   color: white;
+  z-index: 1;
   font-size: 0.8rem;
   font-weight: bold;
   border: 2px solid black;

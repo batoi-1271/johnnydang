@@ -231,7 +231,11 @@ header .menu-head .menu-2 .search input {
   font-size: 3rem;
 }
 
-.section-5 .customs-text button {
+.section-5 .customs-text .button {
+  width: 10rem;
+}
+
+.section-5 .customs-text .button button {
   width: 9rem;
   height: 3rem;
   color: white;
@@ -240,7 +244,7 @@ header .menu-head .menu-2 .search input {
   font-weight: bold;
 }
 
-.section-5 .customs-text button:hover {
+.section-5 .customs-text .button button:hover {
   background-color: white;
   color: black;
 }

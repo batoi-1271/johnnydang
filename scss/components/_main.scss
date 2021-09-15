@@ -94,24 +94,27 @@
     width: 10rem;
     height: 100%;
     padding-top: 30vmin;
-
+  
     h4 {
       font-family: 'Times New Roman', Times, serif;
       font-weight: 500;
       font-size: 3rem;
     }
 
-    button {
-      width: 9rem;
-      height: 3rem;
-      color: white;
-      border: 1px solid white;
-      font-family: "Rajdhani", sans-serif;
-      font-weight: bold;
-
-      &:hover {
-        background-color: white;
-        color: black;
+    .button {
+      width: 10rem;
+      button {
+        width: 9rem;
+        height: 3rem;
+        color: white;
+        border: 1px solid white;
+        font-family: "Rajdhani", sans-serif;
+        font-weight: bold;
+  
+        &:hover {
+          background-color: white;
+          color: black;
+        }
       }
     }
   }

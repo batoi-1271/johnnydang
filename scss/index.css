@@ -220,7 +220,6 @@ header .menu-head .menu-2 .search input {
 }
 
 .section-5 .customs-text {
-  width: 10rem;
   height: 100%;
   padding-top: 30vmin;
 }
@@ -231,17 +230,18 @@ header .menu-head .menu-2 .search input {
   font-size: 3rem;
 }
 
-.section-5 .customs-text .button {
-  width: 10rem;
-}
-
-.section-5 .customs-text .button button {
+.section-5 .customs-text button {
   width: 9rem;
   height: 3rem;
   color: white;
   border: 1px solid white;
   font-family: "Rajdhani", sans-serif;
   font-weight: bold;
+}
+
+.section-5 .customs-text button:hover {
+  background-color: white;
+  color: black;
 }
 
 .section-5 .customs-text .button button:hover {
@@ -521,7 +521,6 @@ footer .copyright {
     position: relative;
   }
   .section-5 .customs-text {
-    width: 10rem;
     height: 100%;
     padding-top: 50vmin;
   }
